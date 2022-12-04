@@ -12,8 +12,8 @@ import toast, { Toaster } from 'react-hot-toast';
 import { collection, setDoc,doc,getDoc,addDoc} from  'firebase/firestore'
 import { db } from '../../firebase';
 
-export const marketplace_contract_Address="0x15F0a6F4095F2f04a187889F3D9b5a83c6b8D8E6"
-export const collection_contract_Address="0x4FDB2ccbCDfea469934eaFDfEf235A6dD4C3fB57"
+export const marketplace_contract_Address="0x05924C2C2e39Ec4Cff55b6Ff64C81A19cB84eDf3"
+export const collection_contract_Address="0x2aF480B4ceDb5550EeeB5F303D5aD5caAF570C20"
 
 
 export default function CreateNft() {

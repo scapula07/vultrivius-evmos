@@ -40,7 +40,7 @@ export default function Profile() {
             <Link to="created"><h5 className='flex space-x-2 items-center '><span>Created</span> <span className='rounded-full flex justify-center stake-bg w-4 h-4 text-xs'>{"0"}</span></h5></Link>
             <Link to="owned"><h5 className='flex space-x-2 items-center'><span>Owned</span> <span className='rounded-full stake-bg flex justify-center w-4 h-4 text-xs'>{"0"}</span></h5></Link>  
             <Link to="collections"> <h5 className='flex space-x-2 items-center'><span>Collections</span> <span className='rounded-full flex justify-center stake-bg w-4 h-4 text-xs'>{"0"}</span></h5></Link> 
-            <Link to="transactions">  <h5 className='flex space-x-2 items-center'><span>Transactions</span> <span className='rounded-full flex  justify-center stake-bg w-4 h-4  text-xs'>{"0"}</span></h5></Link> 
+            {/* <Link to="transactions">  <h5 className='flex space-x-2 items-center'><span>Transactions</span> <span className='rounded-full flex  justify-center stake-bg w-4 h-4  text-xs'>{"0"}</span></h5></Link>  */}
             <Link to="wallet"> <h5 className='flex space-x-2 items-center'>Wallet</h5></Link>  
 
             </main>

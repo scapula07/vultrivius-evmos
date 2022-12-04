@@ -78,7 +78,7 @@ export default function Wallet() {
   return (
     <section>
       <AddFundsModal {...{ trigger, setTrigger }} />
-      <SendFundsModal {...{ showSendFundsModal, setShowSendFundsModal, balance }} />
+      {/* <SendFundsModal {...{ showSendFundsModal, setShowSendFundsModal, balance }} /> */}
       <div className='pt-4  text-white flex justify-center'>
         <div className='stake-bg flex w-1/2 items-center rounded-lg flex-col py-8'>
           <h5 className='text-slate-400'>Total Balance</h5>
@@ -96,7 +96,7 @@ export default function Wallet() {
 
           <div className='flex items-center justify-center space-x-6 pt-4'>
             <button onClick={handleShowAddFundsModal} className='btn-color rounded-sm text-black px-2 py-1 text-xs font-semibold'>Add funds</button>
-            <button onClick={handleShowSendFundsModal} className='btn-color rounded-sm text-black px-2 py-1 text-xs font-semibold'>Send</button>
+            {/* <button onClick={handleShowSendFundsModal} className='btn-color rounded-sm text-black px-2 py-1 text-xs font-semibold'>Send</button> */}
           </div>
 
         </div>

@@ -41,7 +41,7 @@ function App() {
             <Route exact path="/profile" element={<Profile />}>
               <Route exact path="created" element={<Created />} />
               <Route exact path="collections" element={<UserCollections />} />
-              <Route exact path="transactions" element={<Transactions />} />
+              {/* <Route exact path="transactions" element={<Transactions />} /> */}
               <Route exact path="owned" element={<Owned />} />
               <Route exact path="wallet" element={<Wallet />} />
             </Route>

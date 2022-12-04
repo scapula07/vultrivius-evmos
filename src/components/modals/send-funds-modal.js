@@ -1,3 +1,4 @@
+import { ethers } from 'ethers';
 import React, { useState } from 'react'
 import toast from 'react-hot-toast'
 import { AiOutlineCloseCircle } from 'react-icons/ai'
@@ -21,12 +22,7 @@ const SendFundsModal = ({ showSendFundsModal, setShowSendFundsModal, balance }) 
             [e.target.name]: e.target.value
         }))
     }
-
-    const  transfer = async(address,amount) => {
-
-      }
       
-    
 
     const handleSubmit = (e) => {
         e.preventDefault()
@@ -34,7 +30,7 @@ const SendFundsModal = ({ showSendFundsModal, setShowSendFundsModal, balance }) 
             handleClose()
             toast.error("Insufficient balance") 
         }
-        transfer(formData.address, formData.amount)
+        // transfer(formData.address, formData.amount)
     }
     return (
         <Modal trigger={showSendFundsModal} cname=" w-4/5 max-w-md shadow rounded-lg py-8 px-8" >
