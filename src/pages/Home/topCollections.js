@@ -1,6 +1,6 @@
 import React from 'react'
 import { topCollectionData } from '../../utils/data/top-collection'
-import HarmonySymbolIcon from "../../assests/harmony.png"
+import evmosImg from "../../assests/evmos-logo.svg"
 export default function TopCollections() {
   return (
     <section className='layout-container mt-10 md:mt-[62px]'>
@@ -18,7 +18,7 @@ export default function TopCollections() {
                                         <div className="flex space-x-3 items-center">
                                             <p className="text-xs leading-[14px] capitalize text-[#95979F]">floor price</p>
                                             <div className="flex items-center space-x-[6px]">
-                                                <img src={HarmonySymbolIcon} className="h-3 w-3" alt="" />
+                                                <img src={evmosImg} className="h-3 w-3" alt="" />
                                                 <p className="text-sm leading-4 text-[#95979F]">{item.floorPrice}</p>
                                             </div>
                                         </div>
@@ -29,7 +29,7 @@ export default function TopCollections() {
                                 <div className=''>
                                     <p className='text-[#95979F] text-sm leading-4'>+{item.percent}</p>
                                     <div className="flex items-center space-x-2">
-                                        <img src={HarmonySymbolIcon} className="h-3 w-3" alt="" />
+                                        <img src={evmosImg} className="h-3 w-3" alt="" />
                                         <p className="text-sm leading-4 text-white">{item.price}</p>
                                     </div>
                                 </div>

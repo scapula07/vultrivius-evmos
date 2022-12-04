@@ -18,33 +18,41 @@ import Rapture from "./pages/Rapture";
 import Wallet from "./pages/Profile/wallet";
 import Bridge from "./pages/BridgePage";
 import { Toaster } from "react-hot-toast";
+import { QueryClientProvider, QueryClient } from 'react-query'
+import { ReactQueryDevtools } from 'react-query/devtools'
 
 function App() {
+
+  const queryClient = new QueryClient()
   return (
-    <div className="App">
-      <Toaster />
-      <Layout>
-        <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/item/:name" element={<Item />} />
-          <Route exact path="/rapture" element={<Rapture />} />
-          <Route exact path="/list" element={<CreateNft />} />
-          <Route exact path="/stake" element={<Staking />} />
-          <Route exact path="/pool" element={<CreateStake />} />
-          <Route exact path="/votes" element={<Goverance />} />
-          <Route exact path="/profile" element={<Profile />}>
-            <Route exact path="created" element={<Created />} />
-            <Route exact path="collections" element={<UserCollections />} />
-            <Route exact path="transactions" element={<Transactions />} />
-            <Route exact path="owned" element={<Owned />} />
-            <Route exact path="wallet" element={<Wallet />} />
-          </Route>
-          <Route exact path="/bridge" element={<Bridge />} />
-          <Route exact path="/governace" element={<Goverance/>} />
-        </Routes>
-        
-      </Layout>
-    </div>
+    <QueryClientProvider client={queryClient}>
+      <ReactQueryDevtools initialIsOpen={false} />
+      <div className="App">
+        <Toaster />
+        <Layout>
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route exact path="/item/:name" element={<Item />} />
+            <Route exact path="/rapture" element={<Rapture />} />
+            <Route exact path="/list" element={<CreateNft />} />
+            <Route exact path="/stake" element={<Staking />} />
+            <Route exact path="/pool" element={<CreateStake />} />
+            <Route exact path="/votes" element={<Goverance />} />
+            <Route exact path="/profile" element={<Profile />}>
+              <Route exact path="created" element={<Created />} />
+              <Route exact path="collections" element={<UserCollections />} />
+              <Route exact path="transactions" element={<Transactions />} />
+              <Route exact path="owned" element={<Owned />} />
+              <Route exact path="wallet" element={<Wallet />} />
+            </Route>
+            <Route exact path="/bridge" element={<Bridge />} />
+            <Route exact path="/governace" element={<Goverance />} />
+          </Routes>
+
+        </Layout>
+      </div>
+    </QueryClientProvider>
+
   );
 }
 
