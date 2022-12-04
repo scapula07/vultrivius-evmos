@@ -47,7 +47,7 @@ export default function Wallet() {
   );
 
 
-  console.log('transaction data', transactionsData?.data)
+  // console.log('transaction data', transactionsData?.data)
   // console.log('wallet address',getWalletBalance('one1tsfdk8spd04pntkk0sf9m3dsxm3exgxtn0dv7w'))
 
 
