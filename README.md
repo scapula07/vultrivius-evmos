@@ -18,8 +18,8 @@
 
 ### Install
 ```bash
-git clone https://github.com/scapula07/Vutrivius-harmony-hack.git
-cd Vutrivius-harmony-hack
+git clone https://github.com/scapula07/vultrivius-evmos.git
+cd vultrivius-evmos
 yarn install
 
 #Get your development server running.
@@ -37,13 +37,13 @@ Feel free to check the [issues page](../../issues/).
 Give a ⭐ if you like this project!
 
 
-[contributors-shield]: https://img.shields.io/github/contributors/scapula07/Vutrivius-harmony-hack?style=for-the-badge
-[contributors-url]: https://github.com/scapula07/Vutrivius-harmony-hack/graphs/contributors
-[issues-shield]: https://img.shields.io/github/issues/scapula07/Vutrivius-harmony-hack?style=for-the-badge
-[issues-url]: https://github.com/scapula07/Vutrivius-harmony-hack/issues
-[forks-shield]: https://img.shields.io/github/forks/scapula07/Vutrivius-harmony-hack?style=for-the-badge
-[forks-url]: https://github.com/scapula07/Vutrivius-harmony-hack/network
-[star-shield]: https://img.shields.io/github/stars/scapula07/Vutrivius-harmony-hack?style=for-the-badge
-[star-url]: https://github.com/scapula07/Vutrivius-harmony-hack/stargazers
-[license-shield]: https://img.shields.io/github/license/scapula07/Vutrivius-harmony-hack?style=for-the-badge
-[license-url]: hhttps://github.com/scapula07/Vutrivius-harmony-hack/blob/master/License
+[contributors-shield]: https://img.shields.io/github/contributors/scapula07/vultrivius-evmos?style=for-the-badge
+[contributors-url]: https://github.com/scapula07/vultrivius-evmos/graphs/contributors
+[issues-shield]: https://img.shields.io/github/issues/scapula07/vultrivius-evmos?style=for-the-badge
+[issues-url]: https://github.com/scapula07/vultrivius-evmos/issues
+[forks-shield]: https://img.shields.io/github/forks/scapula07/vultrivius-evmos?style=for-the-badge
+[forks-url]: https://github.com/scapula07/vultrivius-evmos/network
+[star-shield]: https://img.shields.io/github/stars/scapula07/vultrivius-evmos?style=for-the-badge
+[star-url]: https://github.com/scapula07/vultrivius-evmos/stargazers
+[license-shield]: https://img.shields.io/github/license/scapula07/vultrivius-evmos?style=for-the-badge
+[license-url]: https://github.com/scapula07/vultrivius-evmos/blob/master/License
