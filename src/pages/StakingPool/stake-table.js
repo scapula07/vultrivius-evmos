@@ -183,7 +183,7 @@ export default function StakeTable() {
               <div>
                 <h5 className='font-semibold'>Pool Details</h5>
                 <main className='flex flex-col pt-4'>
-                  <h5 className='flex items-center justify-between text-sm text-slate-400 w-full'><span className='w-1/2'>APR</span> <span className='w-1/2'>{pool?.apr}%</span></h5>
+                  <h5 className='flex items-center justify-between text-sm text-slate-400 w-full'><spvan className='w-1/2'>APR</span> <span className='w-1/2'>{pool?.apr}%</span></h5>
                   <h5 className='flex items-center justify-between text-sm text-slate-400 w-full'><span className='w-1/2'>Min. stake per user:</span> <span className='w-1/2'>{pool?.amountStake} EVMOS</span></h5>
 
                   <h5 className='flex items-center justify-between text-sm text-slate-400 w-full'><span className='w-1/2'>Ends in</span> <span className='w-1/2'>{`In  ${1 + Number(pool?.time)} mins`} (Sep 30, 2022, 6:26 AM)</span></h5>
@@ -194,7 +194,7 @@ export default function StakeTable() {
                   <div className='w-3/4'>
                     <h5 className='text-xs text-slate-400'>Pool rewards</h5>
                     <h5 className='flex flex-col'>
-                      <span className='text-xs  font-semibold'>{earings} ONE</span>
+                      <span className='text-xs  font-semibold'>{earings} EVMOS</span>
                       <span className='text-xs  text-slate-400'>{earings * 0.0023} USD</span>
                     </h5>
                   </div>
