@@ -164,7 +164,7 @@ export default function Item() {
         <main className='flex justify-end'>
            <button onClick={()=>setTrigger(false)}><AiOutlineCloseCircle className="text-md" /></button>
          </main>
-         {purchase===false&&
+         {purchase===true&&
           <>
          <div className='flex flex-col pt-4'>
             <main className="flex text-slate-400 text-xs justify-between w-full items-center ">
@@ -207,7 +207,7 @@ export default function Item() {
            </>
          }
 
-         {purchase===true&&
+         {purchase===false&&
             <div className='flex flex-col items-center'>
                <h5 className='stake-bg rounded-full w-12 h-12 flex justify-center items-center'><img src={Checker } className="w-10 h-10"/></h5>
                 <h5>Purchase Successful</h5>
