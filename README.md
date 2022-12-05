@@ -27,7 +27,7 @@
 
 Vultrivius is an NFT marketplace for architects to list Architectural designs or blueprints for sale in forms of NFT. Our platform enables creators/architects to list their NFTs in exchange for a royalty fee that will be specified or inputed by the creator.
 
-Buyers can purchase these NFTs in exchnage with the Harmony Native token(ONE) or with our custom token V3T.
+Buyers can purchase these NFTs in exchnage with the EVMOS Native token(TEVMOS) or with our custom token V3T.
 
 ### Dapp features or Hack challange
 
@@ -49,7 +49,7 @@ Vultrivius works on four smart contracts :
 
 1. A NFT marketplace smart contract - This contract implement the basic logic of our marketplace i.e listing ,purchase or sales of NFT
 
- *contract Link* -<https://github.com/scapula07/Vutrivius-harmony-hack/blob/master/contracts/vultriviusNftMarketpalce.sol>
+ *contract Link* -
 
 
 
@@ -57,21 +57,21 @@ Vultrivius works on four smart contracts :
 
  our staking contract implement the *Harmony VRF* , which is used to generate random bytes onchain . The bytes generated is converted to an integer and used to select stakers from the pool.
  
-  *contract Link* -<https://github.com/scapula07/Vutrivius-harmony-hack/blob/master/contracts/vultriviusStaking.sol>
+  *contract Link* -
   
 2. A governace token contract - a governace token is minted 1:1 to each user that staker ONE or V3T in our platform. This token is retrieved or used to unstake amd to vote during governace
 
 
- *contract Link* -<https://github.com/scapula07/Vutrivius-harmony-hack/blob/master/contracts/vultriviusGovernce.sol>
+ *contract Link* -
  
 
 3. NFT collection Contract
 
 
- *contract Link* -<https://github.com/scapula07/Vutrivius-harmony-hack/blob/master/contracts/ArchitectNftCollection.sol>
+ *contract Link* 
  
  
-Vultrivius implements covalent APIs  :
+Vultrivius implements covalent APIs  - WALLET PAGE:
 
 1. To fetch users transactions on the dapp
 1. To fetch users token balances
