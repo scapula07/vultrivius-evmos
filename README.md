@@ -81,9 +81,9 @@ Vultrivius implements covalent APIs  - WALLET PAGE:
 
 ### NFT Cross-Bridge 
 
-A cross-bridge between Ethereum and Polygon chain was implemented using the Maticjs sdk(POS). The contracts for both tokens were mapped using the polygon Token mapper.
+A cross-bridge between Ethereum and EVMOS chain was implemented.
 
-User can transfer their NFT item across chain ,from ethereum to polygonm or vice versa.
+User can transfer their NFT item across chain ,from ethereum to EVMOS or vice versa.
 
 
 ### Install
