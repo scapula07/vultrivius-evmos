@@ -3,7 +3,7 @@ import { useLocation,useParams} from "react-router-dom";
 import avater from "../../assests/male-avater.png"
 import viewIcon from  "../../assests/view-icon.png"
 import favorite from "../../assests/favorite.png"
-import harmony from "../../assests/harmony.png"
+import harmony from "../../assests/evmos-logo.svg"
 import ellipse from "../../assests/Ellipse.png"
 import metadata from "../../assests/metadata.png"
 import ipfs from "../../assests/ipfs.png"
