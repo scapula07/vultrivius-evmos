@@ -115,7 +115,7 @@ export default function Item() {
              </div>
              <div className='flex space-x-4 pt-8'>
                 <button className='btn-color text-black text-xs w-24 py-1'
-                 onClick={()=>setTrigger(true)}
+                 onClick={()=>setTrigger(false)}
                 >Buy Now</button>
                 <button className='flex items-center w-32 py-1 rounded-full border border-slate-800 justify-center text-xs space-x-1'><img src={ellipse} className="w-2 w-2"/> <span>View AR</span></button>
 
