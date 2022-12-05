@@ -160,7 +160,7 @@ export default function StakeTable() {
                 <span className='text-sm font-semibold'>{`Pool#${pool?.ID}`}</span>
               </h5>
 
-              <h5 className=''>{pool?.totalstake} ONE</h5>
+              <h5 className=''>{pool?.totalstake} EVMOS</h5>
               <h5 className='flex flex-col justify-center'>
                 <span className='font-semibold'>{pool.earnings}</span>
                 <span className='text-slate-400 text-xs'>0 USD</span>
@@ -184,7 +184,7 @@ export default function StakeTable() {
                 <h5 className='font-semibold'>Pool Details</h5>
                 <main className='flex flex-col pt-4'>
                   <h5 className='flex items-center justify-between text-sm text-slate-400 w-full'><span className='w-1/2'>APR</span> <span className='w-1/2'>{pool?.apr}%</span></h5>
-                  <h5 className='flex items-center justify-between text-sm text-slate-400 w-full'><span className='w-1/2'>Min. stake per user:</span> <span className='w-1/2'>{pool?.amountStake} ONE</span></h5>
+                  <h5 className='flex items-center justify-between text-sm text-slate-400 w-full'><span className='w-1/2'>Min. stake per user:</span> <span className='w-1/2'>{pool?.amountStake} EVMOS</span></h5>
 
                   <h5 className='flex items-center justify-between text-sm text-slate-400 w-full'><span className='w-1/2'>Ends in</span> <span className='w-1/2'>{`In  ${1 + Number(pool?.time)} mins`} (Sep 30, 2022, 6:26 AM)</span></h5>
                   <h5 className='flex items-center justify-between text-sm text-slate-400 w-full'><span className='w-1/2'>Number of stakers</span> <span className='w-1/2'>{"0"}</span></h5>
@@ -230,7 +230,7 @@ export default function StakeTable() {
                           <select name="cars" id="cars" className='text-xs text-slate-600 btn-color outline-none'
                             onChange={(e) => setToken(e.target.value)}
                           >
-                            <option value="one" className='stake-bg outline-none'>ONE</option>
+                            <option value="one" className='stake-bg outline-none'>EVMOS</option>
                             <option value="v3t" className='stake-bg outline-none'>V3T</option>
                           </select>
                         </button>
