@@ -33,7 +33,7 @@ export default function Item() {
     const location =useLocation()
     const [locationState,setlocationState] = useState(location.state)
     const [trigger,setTrigger] =useState(false)
-    const [purchase,setPurchased] =useState(true)
+    const [purchase,setPurchased] =useState(false)
     const [token,setToken]=useState("")
     
     const web3 = new Web3(window.ethereum)
